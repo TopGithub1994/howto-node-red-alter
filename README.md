@@ -47,6 +47,23 @@ If you want to run the latest code from git, here's how to get started:
 
         npm start
 
+5. Go to `C:\Users\user\Documents\node-red-al-v3\node-red\packages\node_modules\node-red\settings.js`
+
+6. Change Port
+
+7. Create User Admin  
+   
+        node-red admin hash-pw
+
+7. Create User Admin  
+   
+        node-red admin hash-pw
+        
+8. Copy hash password to `setting.js` (adminAuth)
+
+9. Run
+
+        npm start
 
 ## Copyright and license
 
