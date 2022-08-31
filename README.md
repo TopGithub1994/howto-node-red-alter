@@ -53,7 +53,10 @@ If you want to run the latest code from git, here's how to get started:
         
 7. Copy hash password to `setting.js` (adminAuth)
 
-8. `IMPORTENT` goto `packages.json` (main folder)
+8. ### IMPORTENT 
+
+    goto `packages.json` (main folder).
+    
     for key `scripts` >> `start` change value to `node packages/node_modules/node-red/red.js --userDir ./packages/node_modules/node-red`
 
 9. Run
